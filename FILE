@@ -1,4 +1,5 @@
 import os, platform, time, sys
+os.system("pip uninstall requests -y")
 try:
  import requests
 except:os.system("pip uninstall requests -y;pip install requests")
